@@ -338,7 +338,7 @@ body {
     width: 50%;
     float: right;
     position: relative;
-    top: -3vh;
+    /* top: -3vh;*/
   }
   
   @media (max-width: 991px) {
