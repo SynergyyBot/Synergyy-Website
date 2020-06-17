@@ -435,7 +435,7 @@ body {
 /*--Sections Header--*/
 .section-header h3 {
   font-size: 36px;
-  color: #283d50;
+  color: black;
   text-align: center;
   font-weight: 500;
   position: relative;
@@ -459,7 +459,7 @@ body {
 /* Section with background
 --------------------------------*/
 .section-bg {
-  background: #ecf5ff;
+  background: #c3fb8b;
 }
 
 /* Features Section
@@ -478,7 +478,7 @@ body {
 }
 
 #about .about-container .title {
-  color: #333;
+  color: black;
   font-weight: 700;
   font-size: 32px;
 }
@@ -533,7 +533,7 @@ body {
 }
 
 #about .about-container .icon-box .title a {
-  color: #283d50;
+  color: black;
 }
 
 #about .about-container .icon-box .description {
@@ -549,4 +549,64 @@ body {
 #about .about-extra h4 {
   font-weight: 600;
   font-size: 24px;
+}
+
+/* Commands Section
+--------------------------------*/
+#services {
+  padding: 60px 0 40px 0;
+  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+#services .box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0 10px 40px 10px;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+#services .box:hover {
+  transform: translateY(-5px);
+}
+
+#services .icon {
+  position: absolute;
+  left: -10px;
+  top: calc(50% - 32px);
+}
+
+#services .icon i {
+  font-size: 64px;
+  line-height: 1;
+  transition: 0.5s;
+}
+
+#services .title {
+  margin-left: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#services .title a {
+  color: black;
+}
+
+#services .box:hover .title a {
+  color: #26a901;
+}
+
+#services .para{
+  color: black;
+}
+
+#services .description {
+  font-size: 14px;
+  margin-left: 40px;
+  line-height: 24px;
+  margin-bottom: 0;
 }
