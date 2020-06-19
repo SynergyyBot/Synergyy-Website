@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 (function($) {
     "use strict";
 
@@ -87,6 +88,9 @@
   })(jQuery);
   
   jQuery(document).ready(function($) {
+=======
+jQuery(document).ready(function($) {
+>>>>>>> 35c38341ca8c5ca295054458b77575e9171d07a2
     "use strict";
     //  TESTIMONIALS CAROUSEL HOOK
     $('#customers-testimonials').owlCarousel({

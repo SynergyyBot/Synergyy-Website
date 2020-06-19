@@ -611,6 +611,7 @@ body {
   margin-bottom: 0;
 }
 
+<<<<<<< HEAD
 /* FAQ/Why Us */
 
 #why-us {
@@ -693,6 +694,8 @@ body {
   color: #fff;
 }
 
+=======
+>>>>>>> 35c38341ca8c5ca295054458b77575e9171d07a2
 /* Reviews Section
 --------------------------------*/
 
@@ -783,4 +786,8 @@ outline: none !important;
   transform-origin: 50% 50% 0;
   transition: all 250ms ease-out 0s;
   width: 20px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 35c38341ca8c5ca295054458b77575e9171d07a2
