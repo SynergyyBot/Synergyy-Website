@@ -610,3 +610,15 @@ body {
   line-height: 24px;
   margin-bottom: 0;
 }
+
+/* Reviews Section
+--------------------------------*/
+
+#reviews {
+  background: #fff;
+  padding: 60px 0;
+}
+
+#reviews .reviews-container .background {
+  margin: 20px 0;
+}
