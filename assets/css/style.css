@@ -611,91 +611,6 @@ body {
   margin-bottom: 0;
 }
 
-<<<<<<< HEAD
-/* FAQ/Why Us */
-
-#why-us {
-  padding: 60px 0;
-  background: #47bb26;
-}
-
-#why-us .section-header h3, #why-us .section-header p {
-  color: #fff;
-}
-
-#why-us .card {
-  background: #26a901;
-  border-color: #26a901;
-  border-radius: 10px;
-  margin: 0 15px;
-  padding: 15px 0;
-  text-align: center;
-  color: #fff;
-  transition: 0.3s ease-in-out;
-  height: 100%;
-}
-
-@media (max-width: 991px) {
-  #why-us .card {
-    margin: 0;
-  }
-}
-
-#why-us .card:hover {
-  background: #208f01;
-  border-color: #208f01;
-}
-
-#why-us .card i {
-  font-size: 48px;
-  padding-top: 15px;
-  color: #fff;
-}
-
-#why-us .card h5 {
-  font-size: 22px;
-  font-weight: 600;
-}
-
-#why-us .card p {
-  font-size: 15px;
-  color: #fff;
-}
-
-#why-us .card .readmore {
-  color: #fff;
-  font-weight: 600;
-  display: inline-block;
-  transition: 0.3s ease-in-out;
-  border-bottom: #1d9101 solid 2px;
-}
-
-#why-us .card .readmore:hover {
-  border-bottom: #fff solid 2px;
-}
-
-#why-us .counters {
-  padding-top: 40px;
-}
-
-#why-us .counters span {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  font-size: 48px;
-  display: block;
-  color: #fff;
-}
-
-#why-us .counters p {
-  padding: 0;
-  margin: 0 0 20px 0;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  color: #fff;
-}
-
-=======
->>>>>>> 35c38341ca8c5ca295054458b77575e9171d07a2
 /* Reviews Section
 --------------------------------*/
 
@@ -786,8 +701,4 @@ outline: none !important;
   transform-origin: 50% 50% 0;
   transition: all 250ms ease-out 0s;
   width: 20px;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 35c38341ca8c5ca295054458b77575e9171d07a2
