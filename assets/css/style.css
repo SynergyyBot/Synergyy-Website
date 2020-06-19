@@ -611,6 +611,88 @@ body {
   margin-bottom: 0;
 }
 
+/* FAQ/Why Us */
+
+#why-us {
+  padding: 60px 0;
+  background: #47bb26;
+}
+
+#why-us .section-header h3, #why-us .section-header p {
+  color: #fff;
+}
+
+#why-us .card {
+  background: #26a901;
+  border-color: #26a901;
+  border-radius: 10px;
+  margin: 0 15px;
+  padding: 15px 0;
+  text-align: center;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+  height: 100%;
+}
+
+@media (max-width: 991px) {
+  #why-us .card {
+    margin: 0;
+  }
+}
+
+#why-us .card:hover {
+  background: #208f01;
+  border-color: #208f01;
+}
+
+#why-us .card i {
+  font-size: 48px;
+  padding-top: 15px;
+  color: #fff;
+}
+
+#why-us .card h5 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#why-us .card p {
+  font-size: 15px;
+  color: #fff;
+}
+
+#why-us .card .readmore {
+  color: #fff;
+  font-weight: 600;
+  display: inline-block;
+  transition: 0.3s ease-in-out;
+  border-bottom: #1d9101 solid 2px;
+}
+
+#why-us .card .readmore:hover {
+  border-bottom: #fff solid 2px;
+}
+
+#why-us .counters {
+  padding-top: 40px;
+}
+
+#why-us .counters span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  display: block;
+  color: #fff;
+}
+
+#why-us .counters p {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+
 /* Reviews Section
 --------------------------------*/
 
@@ -646,7 +728,7 @@ body {
   margin: -17px auto 0;
   display: table;
   width: auto;
-  background: #4EAA2A;
+  background: #26a901;
   padding: 9px 35px;
   border-radius: 12px;
   text-align: center;
@@ -674,13 +756,13 @@ body {
   width: 90px;
   height: 90px;
   margin: 0 auto 17px;
-  border: 3px solid #4EAA2A;
+  border: 3px solid #26a901;
   border-radius: 50%;
   margin-bottom: 5px !important;
 }
 #customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
 #customers-testimonials.owl-carousel .owl-dots .owl-dot:hover span {
-  background: #4EAA2A;
+  background: #26a901;
   transform: translate3d(0px, -50%, 0px) scale(0.7);
 }
 #customers-testimonials.owl-carousel .owl-dots{

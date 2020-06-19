@@ -77,17 +77,13 @@
     });
 
     // Reviews carousel
-    $(".testimonials-carousel").owlCarousel({
-      autoplay: true,
-      dots: true,
-      loop: true,
-      items: 1
-    });
-  
-  })(jQuery);
-  
-  jQuery(document).ready(function($) {
-    "use strict";
+    // $(".testimonials-carousel").owlCarousel({
+    //   autoplay: true,
+    //   dots: true,
+    //   loop: true,
+    //   items: 1
+    // });
+
     //  TESTIMONIALS CAROUSEL HOOK
     $('#customers-testimonials').owlCarousel({
         loop: true,
@@ -110,4 +106,6 @@
           }
         }
     });
-});
+  
+  })(jQuery);
+  
