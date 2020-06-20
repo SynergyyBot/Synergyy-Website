@@ -89,7 +89,7 @@
 
           <div class="col-lg-6 content order-lg-1 order-2">
             <p>
-              Synergyy is an easy to use project management Discord bot built for students. With features such as Meeting Creation and Reminders, To-Do Lists, Polls, and more, Synergyy allows students to easily collaborate with others on Discord! The bot was built using Discords Python API (discord.py). 
+              Synergyy is an open source, easy to use project management Discord bot built for students. With features such as Meeting Creation and Reminders, To-Do Lists, Polls, and more, Synergyy allows students to easily collaborate with others on Discord! The bot was built using Discords Python API (discord.py). 
             </p>
 
             <div class="icon-box wow fadeInUp">
@@ -253,6 +253,25 @@
 
         </div>
 
+        <div class="row counters">
+
+          <div class="col-lg-4 col-6 text-center">
+            <span>69</span>
+            <p>Servers</p>
+          </div>
+
+          <div class="col-lg-4 col-6 text-center">
+            <span>420</span>
+            <p>Users</p>
+          </div>
+
+          <div class="col-lg-4 col-6 text-center">
+            <span>2</span>
+            <p>Developers</p>
+          </div>
+
+        </div>
+
       </div>
     </section><!-- End FAQ Section -->
 
@@ -373,6 +392,83 @@
           </div>
         </section><!-- End Reviews Section -->
 
+        <!-- ======= Contact Section ======= -->
+    <section id="contact">
+      <div class="container-fluid">
+
+        <div class="section-header">
+          <h3>Contact Us</h3>
+        </div>
+
+        <div class="row wow fadeInUp">
+
+          <div class="col-lg-6">
+              <img src="assets/img/undraw_contact_us_15o2.svg" alt="" class="img-fluid">
+          </div>
+
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-md-4 info">
+                <i class="ion-ios-email-outline"></i>
+                <p>synergyybot@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="form">
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <div class="form-row">
+                  <div class="form-group col-lg-6">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validate"></div>
+                  </div>
+                  <div class="form-group col-lg-6">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validate"></div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <div class="validate"></div>
+                </div>
+                <div class="mb-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+                <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  <!-- Footer -->
+  <footer id="footer">
+
+    <div class="container">
+      <div class="copyright">
+        <strong>Syne<span>rgyy<span></strong><br>Made by Aadi Anjaria and Jerry Cheng<br>Licensed under the MIT license.
+      </div>
+
+      <div class="social-container">
+        <div class="social-links">
+          <a href="https://github.com/SynergyyBot" target="_blank" class="github"><i class="fa fa-github"></i></a>
+          <a href="mailto:synergyybot@gmail.com" class="email"><i class="fa fa-envelope"></i></a>
+        </div>
+      </div>>
+
+    </div>
+
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
     
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
@@ -390,9 +486,6 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
-
-    <!-- Main JS File -->
-    <script src="assets/js/main.js"></script>
   </body>
 
 </html>
