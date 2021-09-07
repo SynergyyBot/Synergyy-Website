@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
       
-        <title>Synergyy Website</title>
+        <title>Synergyy Bot</title>
         <meta content="" name="descriptison">
         <meta content="" name="keywords">
       
@@ -89,13 +89,13 @@
 
           <div class="col-lg-6 content order-lg-1 order-2">
             <p>
-              Synergyy is an easy to use project management Discord bot built for students. With features such as Meeting Creation and Reminders, To-Do Lists, Polls, and more, Synergyy allows students to easily collaborate with others on Discord! The bot was built using Discords Python API (discord.py). 
+              Synergyy is an open source, easy to use project management Discord bot built for students. With features such as Meeting Creation and Reminders, Google Calendar Integration, To-Do Lists, Polls, and more, Synergyy allows students to easily collaborate with others on Discord! The bot was built using Discords Python API (discord.py). 
             </p>
 
             <div class="icon-box wow fadeInUp">
               <div class="icon"><i class="fa fa-calendar-check-o"></i></div>
               <h4 class="title"><a href="">Create Team Meetings</a></h4>
-              <p class="description">Easily set up team meetings at certain times and be reminded about them before they start!</p>
+              <p class="description">Easily set up team meetings, be reminded about them before they start, and easily add your meetings to your google calendar!</p>
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
@@ -141,8 +141,8 @@
           <div class="col-lg-6 col-lg-5 wow bounceInUp" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon"><i class="ion-ios-list-outline" style="color: #26a901;"></i></div>
-              <h4 class="title"><a href="">!todo and !complete</a></h4>
-              <p class="description">Creates a todo list and check off items once complete.<br>• !todo "Finish English Powerpoint"<br>The !complete complete command will open a screen that allows you to check off items.</p>
+              <h4 class="title"><a href="">!addtodo and !todo</a></h4>
+              <p class="description">Creates a todo list and check off items once complete.<br>• !addtodo "Finish English Powerpoint"<br>The !todo command will open your todo list and allow you to manage the items.</p>
             </div>
           </div>
 
@@ -172,7 +172,7 @@
             <div class="box">
               <div class="icon"><i class="ion-ios-star-outline" style="color: #26a901;"></i></div>
               <h4 class="title"><a href="">!vote</a></h4>
-              <p class="description">Vote for Synergyy on <a class="button.one" href="#" target="_blank">top.gg</a> to help us grow!<br>Note: You can vote once every 12 hours, and votes are worth double on weekends.</p>
+              <p class="description">Vote for Synergyy on <a class="button.one" href="https://top.gg/bot/719271108037312595" target="_blank">top.gg</a> to help us grow!<br>Note: You can vote once every 12 hours, and votes are worth double on weekends.</p>
             </div>
           </div>
 
@@ -235,7 +235,7 @@
               <div class="card-body">
                 <h5 class="card-title">Support Synergyy</h5>
                 <p class="card-text">You can help us grow by voting for us on top.gg using the button below! Its free, only takes a few seconds, and helps Synergyy reach a wider audience.</p>
-                <a href="#" class="readmore">Vote</a>
+                <a href="https://top.gg/bot/719271108037312595" target="_blank" class="readmore">Vote</a>
               </div>
             </div>
           </div>
@@ -246,9 +246,29 @@
               <div class="card-body">
                 <h5 class="card-title">View Source Code</h5>
                 <p class="card-text">Synergyy is an open source bot made using Discord's Python API (discord.py). You can check out our github repository using the button below!</p>
-                <a href="https://github.com/SynergyyBot" target = "_blank" class="readmore">Github</a>
+                <a href="https://github.com/SynergyyBot" target="_blank" class="readmore">Github</a>
               </div>
             </div>
+          </div>
+
+        </div>
+
+        <div class="row counters">
+
+          <div class="col-lg-4 col-6 text-center">
+
+            <span>70+</span>
+            <p>Servers</p>
+          </div>
+
+          <div class="col-lg-4 col-6 text-center">
+            <span>500+</span>
+            <p>Users</p>
+          </div>
+
+          <div class="col-lg-4 col-6 text-center">
+            <span>2</span>
+            <p>Developers</p>
           </div>
 
         </div>
@@ -373,6 +393,83 @@
           </div>
         </section><!-- End Reviews Section -->
 
+        <!-- ======= Contact Section ======= -->
+    <section id="contact">
+      <div class="container-fluid">
+
+        <div class="section-header">
+          <h3>Contact Us</h3>
+        </div>
+
+        <div class="row wow fadeInUp">
+
+          <div class="col-lg-6">
+              <img src="assets/img/undraw_contact_us_15o2.svg" alt="" class="img-fluid">
+          </div>
+
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-md-4 info">
+                <i class="ion-ios-email-outline"></i>
+                <p>synergyybot@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="form">
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <div class="form-row">
+                  <div class="form-group col-lg-6">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validate"></div>
+                  </div>
+                  <div class="form-group col-lg-6">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validate"></div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <div class="validate"></div>
+                </div>
+                <div class="mb-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+                <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  <!-- Footer -->
+  <footer id="footer">
+
+    <div class="container">
+      <div class="copyright">
+        <strong>Syne<span>rgyy<span></strong><br>Made by Aadi Anjaria and Jerry Cheng<br>Licensed under the MIT license.
+      </div>
+
+      <div class="social-container">
+        <div class="social-links">
+          <a href="https://github.com/SynergyyBot" target="_blank" class="github"><i class="fa fa-github"></i></a>
+          <a href="mailto:synergyybot@gmail.com" class="email"><i class="fa fa-envelope"></i></a>
+        </div>
+      </div>>
+
+    </div>
+
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
     
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
@@ -390,9 +487,6 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
-
-    <!-- Main JS File -->
-    <script src="assets/js/main.js"></script>
   </body>
 
 </html>
